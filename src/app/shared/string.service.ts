@@ -5,10 +5,7 @@ import 'rxjs/add/operator/map';
 @Injectable()
 export class StringService {
 
-
 	constructor(private _http:Http) { }
-
-
 
 	checkString(string){
 		let headers = new Headers();
